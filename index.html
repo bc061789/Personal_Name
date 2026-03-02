@@ -1,1 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huan Chen | Personal Page</title>
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Dynamic Background -->
+    <div class="background-blobs" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+      <section class="glass-card" id="card">
+        <header>
+          <h1>Huan Chen</h1>
+          <p class="subtitle">Personal Portfolio &amp; Space</p>
+        </header>
+
+        <section class="time-display" aria-label="Current time">
+          <span class="clock-digits" id="clock">--:--:--</span>
+          <span class="date-display" id="date">Loading...</span>
+        </section>
+
+        <footer>
+          <div class="status-indicator" role="status" aria-live="polite">
+            <span class="dot" aria-hidden="true"></span>
+            <span id="statusText">Online</span>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
